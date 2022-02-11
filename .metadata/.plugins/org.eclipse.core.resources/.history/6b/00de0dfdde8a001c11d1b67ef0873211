@@ -1,0 +1,12 @@
+package com.Jeremy.dp;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Travel {
+	@RequestMapping("/travel/{place}")
+	public String travel(@PathVariable) {
+		
+	}
+}

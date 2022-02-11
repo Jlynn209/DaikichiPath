@@ -1,0 +1,9 @@
+package com.Jeremy.dp;
+
+@RestController
+public class Travel {
+	@ReqeustMapping("")
+	public String travel() {
+		
+	}
+}
